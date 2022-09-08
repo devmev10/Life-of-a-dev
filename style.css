@@ -86,3 +86,30 @@ h1{
 .container p{
   font-family: 'Roboto', sans-serif;
 }
+.sec2{
+  padding: 3% 25% 3% 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2 span{ align-self: flex-end; }
+.sec2 p{ margin-bottom: 0; }
+
+footer{
+  background: #3b82f6;
+  color: white;
+  margin: 5% 15%;
+  padding: 1% 7%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  gap: 100px;
+}
+.footer-button{
+  align-self: center;
+  color: white;
+}
+header{ height: 30%; }
+footer{ height: 20%; }
+.sec1, .sec2{ height: 25%; }
+
