@@ -26,3 +26,63 @@ button{
     border-radius: 16px;
     padding: 10px;
 }
+.sec1 h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+.sec2{
+  background: #e5e7eb;
+}
+.sec2 p{
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+.sec2 span{
+  font-weight: bold;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  padding: 1% 15% 1% 15%;
+}
+ul{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.firstLink{
+  margin-left: auto;
+}
+.mini{
+  display: flex;
+  gap: 50px;
+}
+
+.main-gif img{
+  max-width: 100%;
+}
+.sec1{
+  padding: 1% 20% 1% 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mini1{
+  display: flex;
+  gap: 30px;
+}
+.container{
+  width: 200px;
+}
+.container img{
+  width: 200px;
+  height: 150px;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+.container p{
+  font-family: 'Roboto', sans-serif;
+}
